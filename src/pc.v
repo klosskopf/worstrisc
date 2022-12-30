@@ -1,6 +1,3 @@
-`ifndef PC_V
-`define PC_V
-
 `timescale 1ns/1ns
 
 module pc (
@@ -23,5 +20,3 @@ always @(posedge(clk_i),posedge(rst_i)) begin
 end
 
 endmodule
-
-`endif //PC_V

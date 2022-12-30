@@ -1,11 +1,4 @@
-`ifndef RISCV_V
-`define RISCV_V
-
 `timescale 1ns/1ns
-
-`include "pc.v"
-`include "registerfile.v"
-`include "alu.v"
 
 module riscv(
    input rst_i,               //reset riscv; active high
@@ -369,5 +362,3 @@ always @(*) begin
 end
 
 endmodule
-
-`endif //RISCV_V

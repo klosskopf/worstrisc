@@ -1,6 +1,3 @@
-`ifndef ALU_V
-`define ALU_V
-
 `timescale 1ns/1ns
 
 module alu (
@@ -113,5 +110,3 @@ always @(*) begin
 end
     
 endmodule
-
-`endif //ALU_V

@@ -1,6 +1,3 @@
-`ifndef REGISTERFILE_V
-`define REGISTERFILE_V
-
 `timescale 1ns/1ns
 
 module registerfile (
@@ -35,5 +32,3 @@ always @(*) begin
 end
 
 endmodule
-
-`endif //REGISTERFILE
